@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+
+
+body {
+	Margin: 0!important;
+	padding: 15px;
+	background-color: rgb(48, 48, 48);
+}
+.wrapper {
+	width: 100%;
+	table-layout: fixed;
+}
+.wrapper-inner {
+	width: 100%;
+	background-color: rgb(192, 192, 192);
+	max-width: 670px;
+	Margin: 0 auto;
+}
+table {
+	border-spacing: 0;
+	font-family: sans-serif;
+	color: #727f80;
+}
+
+.border-table{
+	width: 100%;
+	max-width: 670px;
+	margin: 0 auto;
+	background-color: #5990A7;
+}
+
+.border-table-1{
+	width: 100%;
+	max-width: 670px;
+	border-bottom: 8px solid #5990A7;
+}
+td {
+    padding: 0;
+}
+.header {
+    background-color: #366795;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+p {
+    Margin:20px;
+}
+.header p {
+    text-align: center;
+    padding: 1%;
+    font-weight: 500;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+/*--- End Outer Table 1 --*/
+.main-table-first {
+	width: 100%;
+	max-width: 610px;
+	Margin: 0 auto;
+	background-color: #FFF;
+	border-radius: 6px;
+	margin-top: 25px;
+}
+/*--- Start Two Column Sections --*/
+.two-column {
+    text-align: center;
+    font-size: 0;
+    padding: 5px 0 10px 0;
+}
+.two-column .section {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+.two-column .content {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+}
+.content {
+    width: 100%;
+    padding-top: 20px;
+}
+.center {
+    display: table;
+    Margin: 40px;
+}
+img {
+    border: 0;
+}
+img.logo {
+    max-width: 610px!important;
+}
+
+/*--- Start Outer Table Banner Image, Text & Button --*/
+
+.main-table {
+    width: 100%;
+    max-width: 610px;
+    margin: 0 auto;
+    background-color: rgb(247, 247, 247);
+    border-radius: 6px;
+}
+.one-column .inner-td {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+}
+.inner-td {
+    padding: 10px;
+}
+.h2 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 45px;
+    Margin: 12px;
+    color: #4A4A4A;
+}
+p.center {
+    text-align: center;
+    max-width: 580px;
+    line-height: 24px;
+}
+.button-holder-center {
+    text-align: center;
+    Margin: 5% 2% 3% 0;
+}
+.button-holder {
+    float: right;
+    Margin: 5% 0 3% 0;
+}
+.btn {
+    font-size: 15px;
+    font-weight: 600;
+    background: rgb(105, 105, 105);
+    color: #FFF;
+    text-decoration: none;
+    padding: 9px 16px;
+    border-radius: 8px;
+}
+/*--- Start Two Column Image & Text Sections --*/
+.two-column img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+}
+.two-column .text {
+    padding: 10px 0;
+}
+/*--- Start 3 Column Image & Text Section --*/
+.border-table-2 {
+	width: 100%;
+	max-width: 670px;
+	margin: 22px auto;
+	background-color: rgb(61, 47, 28);
+    border-bottom: 6px solid #D0BD7E;
+    border-top: 6px solid #92BEAA;
+}
+.border-table-2 p {
+	margin-top: 6px;
+	color: #FFF;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 23px;
+}
+/*--- Start Two Column Article Section --*/
+.border-table-3 {
+    width: 100%;
+    max-width: 670px;
+    margin: 22px auto;
+    background-color: #C2C1C1;
+    border-top: 3px solid #BFBD8A;
+}
+.h3 {
+	text-align: center;
+	font-size: 21px;
+	font-weight: 600;
+	Margin-bottom: 8px;
+	color: #4A4A4A;
+}
+/*--- Start Bottom One Column Section --*/
+.inner-bottom {
+	padding: 22px;
+}
+.h1 {
+    text-align: center!important;
+    font-size: 25px!important;
+    font-weight: 600;
+    line-height: 45px;
+    Margin: 12px 0 20px 0;
+    color: #4A4A4A;
+}
+.inner-bottom p {
+	font-size: 16px;
+	line-height: 24px;
+	text-align: justify;
+}
+/*--- Start Footer Section --*/
+.footer {
+	width: 100%;
+	background-color: #89898C;
+	Margin: 0 auto;
+    color: #FFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer  img {
+	max-width: 135px;
+	Margin: 0 auto;
+	display: block;
+	padding: 4% 0 1% 0;
+}
+p.footer {
+	text-align: center;
+	color: #FFF!important;
+	line-height: 30px;
+	padding-bottom: 4%;
+    text-transform: uppercase;
+}
+/*--- Media Queries Go Here --*/
+
+</style>
+ </head>
+<body>
+    <div class="wrapper">
+    	<div class="wrapper-inner">
+
+
+    		<table class="border-table">
+    			<tr>
+    				<td class="header">
+    					<p><a href="index.html#">This Email Was Brought To You By Justin Paoletta</a></p>
+    				</td>
+    			</tr>
+            </table> 
+
+
+
+            <table class="main-table-first">
+                <tr>
+                    <td class="two-column">
+                        <div class="section">
+                            <table width="100%">
+                                <tr>
+                                    <td class="inner-td">
+                                        <table class="content"  >
+                                            <tr>
+                                                <td style="text-align: center;"> 
+                                                    <img  src="eyepopping.jpeg" class="logo">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr> 
+            </table> <br>
+
+
+
+
+            <table class="border-table-1">
+    			<tr>
+    				<td>
+    
+                    </td>
+    			</tr> 
+            </table><br>
+
+
+
+
+            <table class="main-table">
+    			<tr>
+    				<td class="one-column">
+    					<table width="100%">
+    						<tr>
+    							<td class="inner-td"><br>
+    								<p class="h2" style="color:#5990A7">Email Template <br>(Optimized For Mac Mail) </p>
+    								<p class="center">This is a working HTML email template. You can adapt and change this however you would like for your own personal use.</p>
+    								<p class="button-holder-center"><br><br>
+    									<a class="btn" href="">Learn How To Use This Template By Reading Below</a>
+    								</p>
+    							</td>
+    						</tr>
+    					</table>
+    				</td>
+    			</tr> 
+    			<tr>
+    				<td class="two-column">
+    					<div class="section">
+    						<table width="100%">
+    							<tr>
+    								<td class="inner-td">
+    									<table class="content" style="text-align: center;">
+    						
+    										<tr>
+
+    											<td class="text">
+                                                    <p class="h3" style="color:#5990A7">Start Here</p><br>
+    												<p>WARNING! The email preview will render images in a slightly 
+                                                    different position than what they will be once the email is sent. What you see in the browser is what it should look like once the email is sent.
+                                                    Best practice would be to continue to test what it looks like until you get it just right because of these differences. 
+                                                    Additionally the original size of the images matter, you will need to keep them small to fit inside the table cells.</p>
+    											</td>
+    										</tr>
+    									</table>
+    								</td>
+    							</tr>
+    						</table>
+    					</div> 
+    					<div class="section">
+    						<table width="100%">
+    							<tr>
+    								<td class="inner-td">
+    									<table class="content" style="text-align: center;">
+    									
+    										<tr>
+    											<td class="text">
+                                                        <p class="h3"style="color:#5990A7">How To Test</p><br>
+    												<p>To send the file via Apple Mail, first have the file open in Safari.
+                                                        Then all you need to do is click the share icon and choose "Email This Page". Within the mail app 
+                                                        make sure it says "Send Web Content As: Web Page" on the top right hand side. Keep in mind your images may not look like they are in the correct position at this point.
+                                                        Send the email to yourself and you will see it is corrected once sent.
+                                                    </p>
+    											</td>
+    										</tr>
+    									</table>
+    								</td>
+    							</tr>
+    						</table>
+    					</div>
+    				</td>
+    			</tr> 
+            </table> 
+
+
+
+
+
+            <table class="border-table-2" style="background-color: #C2C1C1;">
+    			<tr>
+    				<td class="content">
+    					<div class="section">
+    						<table width="100%">
+    							<tr>
+    								<td class="inner-td">
+    									<table class="content" style="text-align: center;">
+    										<tr>
+    											<td>
+    												<img style="max-width: 300px;" src="light.png">
+    											</td>
+    										</tr>
+    										<tr>
+    											<td class="text"><br>
+    												<p>This Template Is Optimized for Mac OS</p><br>
+    											</td>
+    										</tr>
+    									</table>
+    								</td>
+    							</tr>
+    						</table>
+    					</div> 
+    				</td>
+    			</tr> 
+            </table>
+
+
+
+
+
+            <table class="main-table">
+                <tr>
+                    <td class="two-column">
+                        <div class="section">
+                            <table width="100%">
+                                <tr>
+                                    <td class="inner-td">
+                                        <table class="content">
+                                            
+                                            <tr>
+                                                <td class="text">
+                                                    <p class="h3" style="color:#92BEAA">Powerful Design</p><br>
+                                                    <p>With HTML email templates you can create emails that people will be excited to read!
+                                                    </p>
+
+                                                    <br>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div> 
+                        
+                        <div class="section">
+                            <table width="100%">
+                                <tr>
+                                    <td class="inner-td">
+                                        <table class="content">
+                                            <tr>
+                                                <td class="text">
+                                                    <p class="h3" style="color:#92BEAA">Keeping it Fresh</p><br>
+                                                
+                                            
+                                                    <p>Coding is a hobby for me, so this will be improved upon in the future!</p>
+                                                    <br>
+                                                </td>
+                                            </tr>
+                            
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div> 
+                    </td>
+                </tr> 
+                <tr>
+                    <td class="one-column">
+                        <table width="100%">
+                            <tr>
+                                <td class="inner-bottom content">
+                                    <p class="h3" style="font-size: 1.9rem; text-align: center; color:#92BEAA;" >In Conclusion</p><br>
+                                    <p>A lot of the content of this email you are probably familiar with already. For some reason it appears email has not caught up with the rest of the web though and you have to use a bunch of tables to create a nice " HTML Email ". 
+                                        It can be difficult to get positioning just right but with a little trial and error you should be fine.</p>
+                                    <br>
+                                  
+                                    <div class="button-holder">
+                                        <p><a style="color: black;" href="https://github.com/JustinPaoletta">My Projects On GitHub</a></p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr> 
+            </table> 
+
+
+
+
+
+            <table class="border-table-3">
+    			<tr>
+    				<td class="one-column">
+    					<table width="100%">
+    						<tr>
+    							<td class="footer">
+                                    <br>
+                                    <p class="footer">HTML EMAIL<br>Free To Use 2020<br>You Can Not Unsubscribe :)</p>
+                                    <br>
+    							</td>
+    						</tr>
+    					</table>
+    				</td>
+    			</tr>
+            </table>
+            
+            
+
+    	</div> 
+    </div> 
+    <br>
+</body>
+</html>
